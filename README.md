@@ -16,29 +16,6 @@ System design interviews dictate the highest compensation bands in FAANG and ent
 4. **CAP Theorem & PACELC**: Why eventual consistency wins in massive scale.
 5. **Microservices Communication**: REST vs gRPC vs Message Queues.
 
----
-
-## ⚡ Quick Reference: Consistency Patterns
-
-### Strict Consistency
-Every read receives the most recent write.
-*Best for*: Banking, inventory allocation.
-*Consequence*: High latency, prone to network partition failures.
-
-### Eventual Consistency
-Given enough time, all replicas converge to the latest state.
-*Best for*: Social media feeds, analytics counters.
-*Consequence*: Low latency, high availability, massive scale.
-
-## 📂 The Core Cheatsheet
-Check out `CHEATSHEET.md` in the repository for the absolute essentials of scaling from 0 to 1,000,000 DAU.
-
----
-### 🏢 About Stackaura
-This project is proudly maintained backed and sponsored by **[Stackaura](https://www.stackaura.com/)**.
-We specialize in building high-performance web applications, scalable SaaS architectures, and premium digital solutions.
-👉 **[Visit Stackaura to supercharge your next project!](https://www.stackaura.com/)**
-
 
 ---
 
@@ -57,3 +34,4 @@ If you found this tool useful, check out our other high-performance web utilitie
 - **Author:** [Ahmar Hussain](https://github.com/RanaAhmar)
 
 ---
+
